@@ -33,3 +33,7 @@ Dados confirmados: R$ 97, um vídeo de introdução, nove aulas em texto, seis s
 Site responsivo no repositório existente, sincronizado com a landing page do Obsidian e publicado pelo GitHub Pages conforme autorização da conversa. Manter transparência sobre o estado do HTTPS. Verificar imagens, checkout, ausência de overflow, navegação por teclado e preferência por movimento reduzido.
 
 Referências de bandeira: FlagCDN (Brasil, Japão, Itália e EUA), consultadas em 25/10/2026. Referência de edição: captura de After Effects/GeoLayers enviada pelo criador nesta conversa. Referência de estilo cartográfico: prompts das skills do aluno de Ranking, Rotas e Turismo e Negócios.
+
+## Atualização de copy solicitada pelo criador
+
+A apresentação pública passa a se concentrar no que o comprador poderá criar e oferecer com o conhecimento. Retirar currículo, contagens de materiais, nomes de ferramentas e explicações do processo. Apresentar o Método Mapa Viral como acesso digital, com foco em resultados e aplicações, preservando preço, checkout e condições da compra. O produto entregue permanece o mesmo. A copy atual está em `design/COPY.md`.

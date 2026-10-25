@@ -27,11 +27,11 @@ Todas as oito novas artes foram produzidas pelo motor integrado de geração de 
 
 As conversões para WebP e as reduções de tamanho preservam o conteúdo visual e a transparência. Não há artes SVG na página. Os arquivos antigos de logo e capa permanecem no repositório como materiais da marca, sem uso na composição atual.
 
-## Oferta
+## Oferta e mensagem
 
-R$ 97, um vídeo de introdução, nove aulas práticas em texto e seis skills. A página informa o formato disponível e explica que vídeos complementares serão acrescentados conforme forem produzidos. A comparação de 5 horas e 20 minutos é um exemplo informado pelo criador, com nota sobre variação por projeto e caráter ilustrativo das imagens.
+Acesso ao Método Mapa Viral por R$ 97. Por orientação do criador, a copy apresenta os resultados e as aplicações comerciais do conhecimento, sem divulgar currículo, etapas internas ou ferramentas. O produto é identificado como digital e o checkout continua na Kiwify. A FAQ esclarece acesso e custos de recursos externos.
 
-Não há depoimentos, contadores, resultados financeiros ou escassez inventados. O site não carrega frameworks nem rastreadores. Conteúdo, FAQ e checkout funcionam sem JavaScript; o movimento reduzido desativa o glow animado.
+A comparação de 5 horas e 20 minutos é um exemplo informado pelo criador, com nota sobre variação por projeto e caráter ilustrativo das imagens. Não há depoimentos, contadores, resultados financeiros ou escassez inventados. Conteúdo, FAQ e checkout funcionam sem JavaScript; o movimento reduzido desativa o glow animado.
 
 ## Fontes e cópia de trabalho
 

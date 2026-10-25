@@ -1,98 +1,235 @@
-# Copy e composição
+# Copy atual — resultados e possibilidades
 
-## Hero
+Método Mapa Viral | Mapas que prendem o olhar
 
-Curso Método Mapa Viral
+Ir para o conteúdo
 
-MAPAS QUE PRENDEM O OLHAR.
+MÉTODO
 
-Aprenda a transformar lugares, rotas e curiosidades em vídeos de mapas. Um caminho prático para criar conteúdo e levar novas ideias aos projetos dos seus clientes.
+MAPA VIRAL
 
-Quero criar meus vídeos
+Veja as possibilidades
 
-Acesso por R$ 97
+Quero começar
 
-1 vídeo de introdução / 9 aulas em texto / 6 skills
+Método Mapa Viral
 
-## Comparativo
+MAPAS QUE
 
-MENOS TEMPO NA TIMELINE. MAIS IDEIAS NO MUNDO.
+PRENDEM
 
-Um vídeo de mapa pode consumir horas entre camadas, máscaras e pontos-chave. O Método Mapa Viral organiza o caminho do roteiro às cenas para você avançar com mais clareza.
+O OLHAR.
 
-After Effects / 5 horas. Método Mapa Viral / 20 minutos.
+Transforme países, rotas e lugares em vídeos que dão vontade de acompanhar. Crie conteúdo para o seu perfil e leve uma nova possibilidade aos projetos dos seus clientes.
 
-Exemplo de tempo informado pelo criador. A duração varia conforme o projeto, as ferramentas e os ajustes. Imagens ilustrativas.
+Quero criar vídeos assim
 
-## Exemplos visuais
+Acesso por
 
-UM PAÍS. MUITAS HISTÓRIAS.
+R$ 97
 
-Relevo, bandeiras dentro das fronteiras e rotas que conduzem o olhar. Explore formatos que fazem parte das skills do curso.
+Da próxima vez, o mapa que chama atenção pode ser o seu.
 
-Brasil / Presença e expansão. Mostre onde uma empresa atende e conecte os pontos da sua história.
+CONTEÚDO
 
-Japão / Roteiros e destinos. Transforme paradas de uma viagem em um percurso visual.
+histórias que
 
-Europa / Países em comparação. Dê contexto a rankings, curiosidades e diferenças entre territórios.
+ganham forma
 
-## Aplicações
+CLIENTES
 
-SEU PRÓXIMO SERVIÇO PODE COMEÇAR EM UM MAPA.
+novas possibilidades
 
-Agências de marketing: campanhas, apresentações e vídeos para mostrar a presença de uma marca.
-Agências de turismo: roteiros, destinos e conexões que ajudam o cliente a visualizar a viagem.
-Empresas e negócios locais: unidades, áreas de atendimento, distribuição e expansão.
-Criadores e freelancers: rankings, curiosidades e projetos cartográficos para canais ou clientes.
+para seus projetos
 
-Ofereça vídeos por projeto ou inclua mapas nos pacotes de conteúdo que você já entrega. A conquista de clientes e o faturamento dependem da sua oferta e da sua execução.
+NEGÓCIOS
 
-## Curso
+um recurso a mais
 
-UM CAMINHO PARA O SEU PRIMEIRO VÍDEO.
+no seu portfólio
 
-Você começa pela introdução e segue pelas aulas práticas. As seis skills organizam instruções para narrativas, rankings, negócios, turismo, mapas urbanos e comparações.
+Mais espaço para criar
 
-Formato disponível hoje: um vídeo de introdução e nove aulas em texto. Os próximos vídeos serão acrescentados conforme forem produzidos.
+MENOS TIMELINE.
 
-01 Entenda o fluxo de produção
-02 Monte sua caixa de ferramentas
-03 Escolha a skill certa
-04 Planeje vídeos para canais e negócios
-05 Defina a direção visual
-06 Crie e revise as cenas
-07 Prepare narração e som
-08 Monte e exporte o vídeo
-09 Confira o resultado antes de publicar
+MAIS HISTÓRIA.
 
-## Oferta
+Você vê um mapa como esse e imagina as horas de trabalho por trás dele. Existe outra possibilidade. Descubra como dar forma às suas ideias com menos tempo preso à edição.
 
-SEU PRÓXIMO MAPA COMEÇA AQUI.
+Edição tradicional
 
-Método Mapa Viral / R$ 97
+5
 
-1 introdução em vídeo, 9 aulas práticas em texto e 6 skills.
+HORAS
+
+Entre camadas,
+
+máscaras e ajustes.
+
+Método Mapa Viral
+
+20
+
+MINUTOS
+
+Mais tempo para
+
+o próximo projeto.
+
+Tempos de um exemplo informado pelo criador; variam conforme o projeto, as ferramentas e os ajustes. Imagens ilustrativas.
+
+Imagine isso nos seus projetos
+
+UM PAÍS.
+
+MUITAS HISTÓRIAS.
+
+Um destino pode despertar vontade de viajar. Um território pode explicar a expansão de uma marca. Uma curiosidade pode se tornar uma história que alguém queira compartilhar.
+
+EUROPA
+
+Países em comparação.
+
+Dê forma a rankings, curiosidades e diferenças entre territórios.
+
+JAPÃO
+
+Roteiros que ganham vida.
+
+Transforme as paradas de uma viagem em um percurso visual.
+
+BRASIL
+
+Presença e expansão.
+
+Mostre onde uma empresa atende e conecte os pontos da sua história.
+
+Imagens ilustrativas das possibilidades visuais.
+
+Conteúdo e projetos comerciais
+
+SEU PRÓXIMO
+
+SERVIÇO PODE
+
+COMEÇAR EM
+
+UM MAPA.
+
+Uma agência precisa apresentar um destino. Uma marca quer mostrar onde está crescendo. Você pode oferecer uma forma de contar essas histórias.
+
+Agências de marketing
+
+Leve uma nova proposta visual para campanhas, apresentações e conteúdos de clientes.
+
+Agências de turismo
+
+Ajude o cliente a se imaginar na viagem ao apresentar os destinos e o percurso.
+
+Empresas e negócios locais
+
+Mostre a presença da marca, a abertura de novas unidades ou a localização de um empreendimento.
+
+Criadores e freelancers
+
+Amplie seu portfólio com vídeos de mapas e ofereça essa entrega em projetos ou pacotes de conteúdo.
+
+A conquista de clientes e o faturamento dependem da sua oferta e da sua execução.
+
+JAPÃO
+
+ITÁLIA
+
+ESTADOS UNIDOS
+
+O que isso abre para você
+
+LEVE SEUS
+
+PROJETOS
+
+MAIS LONGE.
+
+Você pode transformar um lugar em uma história, apresentar uma viagem antes do embarque ou dar dimensão ao crescimento de uma empresa.
+
+Seu conteúdo com outra presença.
+
+Crie vídeos em que o público consegue enxergar a história acontecendo no mapa.
+
+Uma nova entrega no seu portfólio.
+
+Acrescente vídeos cartográficos às propostas que você apresenta para marcas e agências.
+
+Ideias que cabem em vários negócios.
+
+Explore projetos para turismo, empresas, imóveis e conteúdos próprios.
+
+As possibilidades já estão à vista. O caminho para chegar até elas está no Método Mapa Viral.
+
+Método Mapa Viral
+
+SEU PRÓXIMO MAPA
+
+COMEÇA AQUI.
+
+R$
+
+97
+
+Crie vídeos para o seu conteúdo
+
+Apresente ideias para clientes
+
+Amplie suas possibilidades de trabalho
 
 Quero acessar o método
 
-Pagamento e acesso pela Kiwify.
+Produto digital. Pagamento e acesso pela Kiwify.
 
-## FAQ
+Comece a explorar o que você pode fazer com esse conhecimento.
 
-Preciso saber usar After Effects?
-Não. O curso ensina outro fluxo de criação, com etapas de roteiro, cenas, montagem e revisão.
+Antes de começar
 
-As aulas já estão todas em vídeo?
-A versão atual tem um vídeo de introdução e nove aulas em texto. Vídeos complementares serão acrescentados conforme forem produzidos.
+TIRE SUAS
 
-O que são as skills?
-São arquivos de instruções organizados por tipo de vídeo. Você recebe seis formatos para adaptar ao tema e aos locais do seu projeto.
+DÚVIDAS.
 
-Posso usar em projetos de clientes?
-Os formatos podem ser adaptados para campanhas, turismo, apresentações empresariais e outros projetos que precisem mostrar lugares, trajetos ou cobertura.
+Isso serve para o meu tipo de projeto?
 
-O curso inclui as ferramentas de criação?
-O acesso é ao curso e às seis skills. As ferramentas usadas na produção têm seus próprios planos e limites, que devem ser conferidos antes de começar.
+O Método Mapa Viral pode ser aplicado a conteúdo próprio e a projetos para marcas, agências de marketing, turismo, empresas e negócios imobiliários. Pense nas histórias em que mostrar um lugar faz diferença.
 
-Como recebo o acesso?
-Após concluir a compra, siga as instruções da Kiwify para entrar na área do curso e acessar o material.
+Posso oferecer esses vídeos como serviço?
+
+Você pode incluir vídeos de mapas no seu portfólio, oferecer projetos individuais ou acrescentar essa entrega aos pacotes que já vende. Conquistar clientes e definir preços depende da sua oferta e da sua execução.
+
+Preciso dominar animação cartográfica?
+
+Você pode começar sem experiência em animação cartográfica. Sua familiaridade com criação de conteúdo ajuda, e o método foi organizado para orientar a aplicação desde o início.
+
+Como recebo meu acesso?
+
+Após a confirmação da compra, siga as instruções enviadas pela Kiwify para acessar a área reservada do Método Mapa Viral.
+
+O que o valor de R$ 97 cobre?
+
+O valor dá acesso ao Método Mapa Viral. Recursos ou serviços externos que você escolher utilizar têm seus próprios planos e condições e não estão incluídos nesse valor.
+
+O PRÓXIMO
+
+MAPA É SEU.
+
+Você já consegue imaginar onde usar.
+
+Agora dê o próximo passo. Acesso por R$ 97.
+
+Quero criar vídeos assim
+
+MÉTODO MAPA VIRAL
+
+© 2026 VitaleGeo
+
+Acesso ao método
+
+R$ 97
+
+Quero começar
