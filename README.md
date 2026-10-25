@@ -4,19 +4,19 @@ Landing page estática do curso, publicada pelo GitHub Pages em `metodomapaviral
 
 ## Página atual
 
-- `index.html`: página de vendas em texto, sem VSL.
-- `assets/hero-atlas.webp`: arte original de abertura, otimizada para a web.
-- `assets/comparativo-after-effects.webp`: comparação visual inspirada na captura de tela fornecida por Agnaldo.
-- `assets/mapas-de-exemplo.svg`: três exemplos cartográficos alinhados aos prompts das skills (Japão/rota, Brasil/cobertura, Itália/percurso).
+- `index.html`: página de vendas sem VSL, com checkout Kiwify.
+- `assets/hero-brasil-bandeira.png`: Brasil em destaque, com contorno geográfico, bandeira recortada no território e rotas.
+- `assets/pais-*-bandeira.png`: seis mapas PNG com contornos de países e bandeiras para a galeria e comparativo.
+- `assets/timeline-after-effects-geolayers.png`: captura fornecida pelo criador, usada no comparativo da timeline.
 - `logo/`: marca e favicon usados na página.
 - `capa-metodo-mapa-viral.png`: imagem de prévia ao compartilhar o link.
 - `CNAME`: domínio personalizado do GitHub Pages.
 
-O visual atual usa fundo azul-marinho escuro, destaques vermelhos e áreas cartográficas claras. A página informa o formato presente do curso: um vídeo de introdução, nove aulas em texto e seis skills.
+O visual usa fundo azul-marinho escuro, destaques vermelhos e mapas em PNG com transparência. Os contornos geográficos dos países foram derivados dos dados públicos do [Natural Earth Vector](https://github.com/nvkelso/natural-earth-vector).
 
-A comparação de cinco horas com vinte minutos foi fornecida pelo criador e está identificada como um exemplo, com aviso de que o tempo varia conforme o projeto.
+A comparação de cinco horas com vinte minutos foi informada pelo criador como exemplo de produção. A página avisa que o tempo varia conforme o projeto.
 
-Os contornos dos países no SVG foram derivados de `ne_110m_admin_0_countries.geojson`, do [Natural Earth Vector](https://github.com/nvkelso/natural-earth-vector), cujos dados são de domínio público.
+O curso é apresentado como disponível hoje: um vídeo de introdução, nove aulas em texto e seis skills.
 
 Checkout: `https://pay.kiwify.com.br/bAuPiQh`.
 
