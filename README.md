@@ -4,6 +4,7 @@ Página estática do curso VitaleGeo, publicada pelo GitHub Pages em `metodomapa
 
 - `index.html`: página de vendas.
 - `logo/`: marca e favicon usados na página.
+- `capa-metodo-mapa-viral.png`: imagem de prévia ao compartilhar o link.
 - `CNAME`: domínio personalizado do GitHub Pages.
 - Checkout: `https://pay.kiwify.com.br/bAuPiQh`.
 
