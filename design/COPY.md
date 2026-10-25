@@ -4,11 +4,9 @@ Método Mapa Viral | Mapas que prendem o olhar
 
 Ir para o conteúdo
 
-MÉTODO
-
-MAPA VIRAL
-
 Veja as possibilidades
+
+Dúvidas
 
 Quero começar
 
@@ -194,6 +192,26 @@ TIRE SUAS
 
 DÚVIDAS.
 
+Preciso saber editar vídeos para usar o método?
+
+Você não precisa dominar edição avançada nem animação cartográfica. Noções básicas ajudam na finalização, mas você pode começar com pouca experiência e evoluir conforme aplica o método.
+
+Em quanto tempo recebo meu acesso?
+
+Depois da confirmação do pagamento, a Kiwify envia as instruções de acesso para o e-mail informado na compra. O prazo de confirmação depende da forma de pagamento e da aprovação da transação.
+
+Em quanto tempo consigo fazer um vídeo?
+
+O exemplo apresentado na página usa cerca de 20 minutos de produção. O seu tempo depende da duração do vídeo, da prática e do acabamento desejado. Para o primeiro, reserve também tempo para se familiarizar com o método.
+
+Por que escolher o Método Mapa Viral?
+
+Para dar uma nova possibilidade às ideias que você já tem. Você pode usar esse conhecimento para contar histórias com mapas, diferenciar suas propostas e acrescentar uma entrega ao que oferece para clientes.
+
+Quais são as principais vantagens do método?
+
+Ampliar seu repertório visual, dar contexto às histórias e aproveitar o conhecimento em diferentes projetos. Você pode criar conteúdo próprio, apresentar destinos e mostrar a presença de uma marca em vários lugares.
+
 Isso serve para o meu tipo de projeto?
 
 O Método Mapa Viral pode ser aplicado a conteúdo próprio e a projetos para marcas, agências de marketing, turismo, empresas e negócios imobiliários. Pense nas histórias em que mostrar um lugar faz diferença.
@@ -202,13 +220,9 @@ Posso oferecer esses vídeos como serviço?
 
 Você pode incluir vídeos de mapas no seu portfólio, oferecer projetos individuais ou acrescentar essa entrega aos pacotes que já vende. Conquistar clientes e definir preços depende da sua oferta e da sua execução.
 
-Preciso dominar animação cartográfica?
+Preciso aparecer nos vídeos?
 
-Você pode começar sem experiência em animação cartográfica. Sua familiaridade com criação de conteúdo ajuda, e o método foi organizado para orientar a aplicação desde o início.
-
-Como recebo meu acesso?
-
-Após a confirmação da compra, siga as instruções enviadas pela Kiwify para acessar a área reservada do Método Mapa Viral.
+Não. O vídeo pode ser conduzido pelos mapas e pela história que você quer contar. Você decide se quer aparecer.
 
 O que o valor de R$ 97 cobre?
 

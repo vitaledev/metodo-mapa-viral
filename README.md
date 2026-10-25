@@ -25,7 +25,7 @@ Todas as oito novas artes foram produzidas pelo motor integrado de geração de 
 - `design/references/`: bandeiras reais usadas como referência e captura original fornecida pelo criador.
 - `CNAME`: domínio personalizado do GitHub Pages.
 
-As conversões para WebP e as reduções de tamanho preservam o conteúdo visual e a transparência. Não há artes SVG na página. Os arquivos antigos de logo e capa permanecem no repositório como materiais da marca, sem uso na composição atual.
+As conversões para WebP e as reduções de tamanho preservam o conteúdo visual e a transparência. As artes cartográficas são raster. O cabeçalho usa a logo original aprovada, no SVG reverso para fundo escuro. Os demais arquivos da marca permanecem como materiais de apoio.
 
 ## Oferta e mensagem
 
