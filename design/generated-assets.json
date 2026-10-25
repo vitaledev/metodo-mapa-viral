@@ -1,0 +1,42 @@
+[
+  {
+    "name": "hero",
+    "original": "design/originals/hero.png",
+    "generator": "built-in image_gen"
+  },
+  {
+    "name": "brasil",
+    "original": "design/originals/brasil.png",
+    "generator": "built-in image_gen"
+  },
+  {
+    "name": "before",
+    "original": "design/originals/before.png",
+    "generator": "built-in image_gen"
+  },
+  {
+    "name": "japao-cutout",
+    "original": "design/originals/japao-cutout.png",
+    "generator": "built-in image_gen"
+  },
+  {
+    "name": "italia-cutout",
+    "original": "design/originals/italia-cutout.png",
+    "generator": "built-in image_gen"
+  },
+  {
+    "name": "eua-cutout",
+    "original": "design/originals/eua-cutout.png",
+    "generator": "built-in image_gen"
+  },
+  {
+    "name": "japao-rota",
+    "original": "design/originals/japao-rota.png",
+    "generator": "built-in image_gen"
+  },
+  {
+    "name": "europa-paises",
+    "original": "design/originals/europa-paises.png",
+    "generator": "built-in image_gen"
+  }
+]
