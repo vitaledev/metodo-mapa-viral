@@ -50,6 +50,6 @@
 
 **Files:** `README.md`, cópia em `D:/Obsidian/Vida nova/Projetos/VitaleGeo/Curso/landing-page`.
 
-- [ ] Sincronizar a cópia de trabalho do Obsidian.
-- [ ] Rever diff e publicar no GitHub Pages.
-- [ ] Confirmar conteúdo e ativos servidos pelo domínio e registrar estado real do HTTPS.
+- [x] Sincronizar a cópia de trabalho do Obsidian.
+- [x] Rever diff e publicar no GitHub Pages.
+- [x] Confirmar conteúdo e ativos servidos pelo domínio e registrar estado real do HTTPS.
