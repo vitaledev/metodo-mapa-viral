@@ -3,257 +3,406 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#FFFDF7">
-  <meta name="description" content="Aprenda a criar vídeos de mapas com IA sem começar do zero em cada tema. Método Mapa Viral: introdução em vídeo, 9 aulas em texto e 6 skills.">
+  <meta name="theme-color" content="#07111F">
+  <meta name="description" content="Aprenda um fluxo prático para transformar ideias, lugares e rotas em vídeos de mapas. Acesso ao Método Mapa Viral por R$ 97.">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Método Mapa Viral | Vídeos de mapas com IA">
-  <meta property="og:description" content="Do tema ao vídeo: roteiro, cenas, edição e revisão com 9 aulas práticas e 6 skills.">
+  <meta property="og:title" content="Método Mapa Viral | Mapas que viram histórias em vídeo">
+  <meta property="og:description" content="Do primeiro tema ao vídeo final: aulas práticas e seis skills para planejar diferentes formatos de mapas.">
   <meta property="og:url" content="https://metodomapaviral.vitalegeo.com.br/">
   <meta property="og:image" content="https://metodomapaviral.vitalegeo.com.br/capa-metodo-mapa-viral.png">
   <meta property="og:image:width" content="300">
   <meta property="og:image:height" content="250">
-  <title>Método Mapa Viral | Crie vídeos de mapas com IA</title>
+  <title>Método Mapa Viral | Transforme mapas em vídeos</title>
   <link rel="canonical" href="https://metodomapaviral.vitalegeo.com.br/">
   <link rel="icon" href="logo/metodo-mapa-viral-favicon.ico" sizes="any">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --ink:#191919;
-      --muted:#595959;
-      --paper:#FFFDF7;
-      --white:#FFFFFF;
-      --yellow:#FFE66D;
-      --red:#C7143B;
-      --red-dark:#A80E30;
-      --line:#E4E0D7;
+      color-scheme:dark;
+      --night:#07111F;
+      --navy:#0A192F;
+      --panel:#101E30;
+      --panel-lift:#15263A;
+      --ink:#F4F6FA;
+      --muted:#B2BECC;
+      --subtle:#8292A6;
+      --line:#293A4E;
+      --red:#E11D3F;
+      --red-hot:#FF3655;
+      --red-deep:#B70D2B;
+      --map-paper:#F5F2EB;
+      --green:#A8C3A6;
     }
     * { box-sizing:border-box; }
     html { scroll-behavior:smooth; }
-    body { margin:0; color:var(--ink); background:var(--paper); font:400 17px/1.62 "DM Sans",Arial,sans-serif; }
+    body { margin:0; color:var(--ink); background:var(--night); font:400 16px/1.65 "DM Sans",Arial,sans-serif; }
     a { color:inherit; }
-    a:focus-visible,summary:focus-visible { outline:3px solid var(--red); outline-offset:4px; }
-    ::selection { color:var(--ink); background:var(--yellow); }
-    .shell { width:min(1060px,calc(100% - 48px)); margin-inline:auto; }
-    .reading { width:min(810px,calc(100% - 48px)); margin-inline:auto; }
-    .kicker { margin:0 0 16px; color:var(--red); font-size:12px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; }
+    a:focus-visible,summary:focus-visible { outline:3px solid var(--red-hot); outline-offset:4px; }
+    ::selection { color:#fff; background:var(--red); }
+    img { display:block; max-width:100%; }
+    .wrap { width:min(1160px,calc(100% - 48px)); margin-inline:auto; }
+    .reading { width:min(870px,calc(100% - 48px)); margin-inline:auto; }
     h1,h2,h3,p { margin-top:0; }
-    h1,h2,h3 { letter-spacing:-.055em; }
-    h1 { max-width:950px; margin-bottom:23px; font-size:clamp(39px,6.2vw,76px); line-height:1.08; font-weight:800; }
-    h2 { margin-bottom:17px; font-size:clamp(32px,4.3vw,51px); line-height:1.14; font-weight:800; }
-    h3 { margin-bottom:8px; font-size:22px; line-height:1.25; font-weight:800; }
+    h1,h2,h3 { font-family:"Space Grotesk","DM Sans",sans-serif; letter-spacing:-.045em; }
+    h1 { max-width:720px; margin-bottom:20px; font-size:clamp(43px,6.3vw,78px); line-height:1.02; font-weight:700; }
+    h2 { max-width:800px; margin-bottom:15px; font-size:clamp(34px,4.6vw,56px); line-height:1.08; font-weight:700; }
+    h3 { margin-bottom:8px; font-size:22px; line-height:1.2; font-weight:700; }
     p { margin-bottom:0; }
-    mark { padding:0 .08em .04em; color:inherit; background:linear-gradient(transparent 51%,var(--yellow) 51%); }
-    .button { display:inline-flex; justify-content:center; align-items:center; gap:12px; min-height:60px; padding:14px 27px; border:2px solid var(--red); border-radius:8px; background:var(--red); color:var(--white); text-align:center; text-decoration:none; font:800 16px/1.25 "DM Sans",Arial,sans-serif; box-shadow:0 8px 0 rgba(25,25,25,.12); transition:transform .17s ease,background .17s ease,box-shadow .17s ease; }
-    .button:hover { background:var(--red-dark); border-color:var(--red-dark); transform:translateY(-2px); box-shadow:0 10px 0 rgba(25,25,25,.12); }
-    .button:active { transform:translateY(2px); box-shadow:0 4px 0 rgba(25,25,25,.12); }
-    .button.small { min-height:43px; padding:9px 16px; font-size:13px; box-shadow:none; }
+    .red { color:var(--red-hot); }
+    .eyebrow { display:flex; align-items:center; gap:11px; margin:0 0 17px; color:#FF788A; font-size:12px; font-weight:800; letter-spacing:.14em; text-transform:uppercase; }
+    .eyebrow::before { width:24px; height:2px; background:var(--red-hot); content:""; }
+    .section-copy { max-width:700px; color:var(--muted); font-size:18px; }
+    .button { display:inline-flex; align-items:center; justify-content:center; gap:12px; min-height:58px; padding:14px 24px; border:1px solid var(--red); border-radius:9px; background:var(--red); color:#fff; text-align:center; text-decoration:none; font:800 15px/1.25 "DM Sans",sans-serif; box-shadow:0 9px 32px rgba(225,29,63,.25); transition:transform .17s ease,background .17s ease,box-shadow .17s ease; }
+    .button:hover { transform:translateY(-2px); border-color:var(--red-hot); background:var(--red-hot); box-shadow:0 12px 38px rgba(225,29,63,.34); }
+    .button:active { transform:translateY(1px); }
+    .button.small { min-height:44px; padding:10px 16px; font-size:13px; box-shadow:none; }
     .button.full { width:100%; }
-    .header { border-bottom:1px solid var(--line); background:var(--white); }
+    .button svg { width:17px; height:17px; }
+    .header { position:relative; z-index:4; border-bottom:1px solid rgba(169,188,210,.13); background:rgba(7,17,31,.9); }
     .header-inner { display:flex; justify-content:space-between; align-items:center; min-height:76px; gap:20px; }
-    .header img { display:block; width:178px; height:auto; }
-    .header-right { display:flex; align-items:center; gap:20px; }
-    .header-label { color:var(--muted); font-size:12px; font-weight:700; }
-    .hero { padding:86px 0 82px; }
-    .hero .reading { width:min(910px,calc(100% - 48px)); }
-    .hero-lead { max-width:780px; font-size:clamp(19px,2vw,23px); line-height:1.5; }
-    .hero-lead strong { font-weight:800; }
-    .hero-actions { display:flex; align-items:center; flex-wrap:wrap; gap:18px; margin-top:30px; }
-    .hero-price { font-size:27px; font-weight:800; letter-spacing:-.05em; }
-    .hero-includes { margin:20px 0 0; color:var(--muted); font-size:14px; }
-    .hero-includes strong { color:var(--ink); }
-    .hero-disclosure { max-width:710px; margin-top:8px; color:var(--muted); font-size:13px; }
-    .brand-line { display:flex; align-items:center; gap:14px; margin-top:36px; padding-top:24px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
-    .brand-line strong { color:var(--ink); }
-    .brand-line .bar { width:30px; height:3px; background:var(--red); }
-    .section { padding:84px 0; border-top:1px solid var(--line); }
-    .section-lead { max-width:690px; color:var(--muted); font-size:18px; }
-    .pain { background:var(--white); }
-    .pain-list { margin:31px 0 0; padding:0; list-style:none; }
-    .pain-list li { display:flex; gap:18px; padding:20px 0; border-top:1px solid var(--line); font-size:19px; font-weight:700; line-height:1.4; }
-    .pain-list li:last-child { border-bottom:1px solid var(--line); }
-    .pain-list span { color:var(--red); font-weight:800; }
-    .answer { max-width:710px; margin-top:27px; font-size:18px; font-weight:700; }
-    .how { background:#F7F5EE; }
-    .steps { margin:31px 0 0; padding:0; list-style:none; border-top:1px solid #DCD8CF; }
-    .steps li { display:grid; grid-template-columns:62px 1fr; gap:14px; padding:23px 0; border-bottom:1px solid #DCD8CF; }
-    .steps b { color:var(--red); font-size:18px; }
-    .steps strong { display:block; font-size:20px; line-height:1.3; }
-    .steps p { max-width:690px; margin-top:4px; color:var(--muted); font-size:16px; }
-    .example { margin-top:35px; padding:26px 30px; border-radius:10px; background:var(--white); box-shadow:0 14px 40px -32px rgba(0,0,0,.18); }
-    .example-label { margin-bottom:12px; color:var(--red); font-size:12px; font-weight:800; text-transform:uppercase; letter-spacing:.12em; }
-    .example strong { font-size:21px; }
-    .example p { margin-top:8px; color:var(--muted); font-size:15px; }
-    .contents { background:var(--white); }
-    .deliverables { margin:35px 0 0; padding:0; list-style:none; }
-    .deliverables li { display:grid; grid-template-columns:67px 1fr; gap:18px; padding:22px 0; border-top:1px solid var(--line); }
-    .deliverables li:last-child { border-bottom:1px solid var(--line); }
-    .deliverables .qty { font-size:34px; font-weight:800; line-height:1; letter-spacing:-.06em; }
-    .deliverables p { color:var(--muted); font-size:16px; }
-    .skills { padding-top:65px; }
-    .skills h3 { margin-bottom:17px; }
-    .skill-list { display:grid; grid-template-columns:1fr 1fr; gap:0 28px; margin:0; padding:0; list-style:none; }
-    .skill-list li { padding:14px 0; border-top:1px solid var(--line); font-size:16px; }
-    .skill-list span { display:block; color:var(--muted); font-size:14px; }
-    .format { margin-top:30px; padding:20px 23px; border-left:4px solid var(--red); background:#FFF6E7; font-size:15px; }
-    .format strong { display:block; margin-bottom:5px; }
-    .offer { background:var(--ink); color:var(--white); }
-    .offer .kicker { color:var(--yellow); }
-    .offer h2 { max-width:720px; }
-    .offer-lead { max-width:680px; color:#D6D6D6; font-size:19px; }
-    .offer-box { display:grid; grid-template-columns:1fr auto; gap:24px; align-items:center; margin-top:31px; padding:30px; border:1px solid #656565; border-radius:12px; background:#282828; }
-    .offer-price { display:block; margin-bottom:3px; font-size:46px; font-weight:800; line-height:1; letter-spacing:-.06em; }
-    .offer-box p { color:#D6D6D6; font-size:14px; }
-    .offer .checkout-note { margin-top:18px; color:#C9C9C9; font-size:13px; }
-    .faq { background:var(--white); }
-    .faq details { padding:21px 0; border-top:1px solid var(--line); }
-    .faq details:last-child { border-bottom:1px solid var(--line); }
-    .faq summary { cursor:pointer; font-size:18px; font-weight:800; line-height:1.4; }
-    .faq details p { max-width:720px; margin-top:12px; color:var(--muted); font-size:16px; }
-    .closing { padding:72px 0; text-align:center; }
-    .closing h2 { max-width:750px; margin:0 auto 16px; }
-    .closing p { margin-bottom:26px; color:var(--muted); }
-    .footer { padding:27px 0; border-top:1px solid var(--line); color:var(--muted); font-size:12px; }
-    .footer-inner { display:flex; justify-content:space-between; gap:16px; }
+    .logo { display:block; width:190px; height:auto; }
+    .header-note { color:var(--muted); font-size:12px; font-weight:600; }
+    .hero { position:relative; overflow:hidden; padding:65px 0 82px; background:radial-gradient(ellipse at 78% 39%,rgba(39,72,103,.22),transparent 45%),var(--night); }
+    .hero::after { position:absolute; top:11%; right:-150px; width:430px; height:430px; border:1px solid rgba(225,29,63,.13); border-radius:50%; box-shadow:0 0 0 42px rgba(225,29,63,.025),0 0 0 84px rgba(225,29,63,.018); content:""; pointer-events:none; }
+    .hero-grid { position:relative; z-index:1; display:grid; grid-template-columns:1fr 1.02fr; align-items:center; gap:34px; }
+    .hero-copy { padding:12px 0 25px; }
+    .hero h1 span { color:var(--red-hot); }
+    .hero-lead { max-width:620px; color:#C5D0DD; font-size:clamp(17px,1.9vw,20px); line-height:1.55; }
+    .hero-actions { display:flex; align-items:center; gap:18px; flex-wrap:wrap; margin-top:27px; }
+    .price-note { color:var(--muted); font-size:13px; }
+    .price-note strong { display:block; color:#fff; font:700 26px/1.1 "Space Grotesk",sans-serif; letter-spacing:-.04em; }
+    .hero-foot { display:flex; gap:10px 20px; flex-wrap:wrap; margin-top:25px; color:#A7B4C3; font-size:13px; }
+    .hero-foot span { display:inline-flex; align-items:center; gap:8px; }
+    .hero-foot span::before { width:6px; height:6px; border-radius:50%; background:var(--red-hot); content:""; }
+    .hero-art { position:relative; margin:0; min-width:0; }
+    .hero-art img { width:100%; aspect-ratio:1.45; object-fit:cover; border:1px solid rgba(203,219,235,.2); border-radius:15px; box-shadow:0 26px 72px rgba(0,0,0,.38); }
+    .hero-art::before { position:absolute; z-index:2; top:-11px; right:-11px; width:38%; height:38%; border-top:2px solid var(--red); border-right:2px solid var(--red); content:""; pointer-events:none; }
+    .art-caption { display:flex; justify-content:space-between; gap:16px; margin-top:13px; color:#94A5B8; font-size:11px; letter-spacing:.04em; }
+    .art-caption strong { color:#D3DCE6; font-weight:600; }
+    .hero-rule { margin-top:62px; border-top:1px solid rgba(169,188,210,.16); }
+    .hero-stats { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-top:22px; }
+    .hero-stats div { display:flex; align-items:baseline; gap:11px; }
+    .hero-stats strong { color:#fff; font:700 23px/1 "Space Grotesk",sans-serif; }
+    .hero-stats span { color:#9EACBD; font-size:12px; }
+    .section { position:relative; padding:88px 0; border-top:1px solid rgba(169,188,210,.1); }
+    .section.alt { background:#0B1726; }
+    .section.red-wash { background:radial-gradient(ellipse at 10% 10%,rgba(225,29,63,.1),transparent 35%),#0A1523; }
+    .section-head { margin-bottom:34px; }
+    .section-head .eyebrow { margin-bottom:13px; }
+    .comparison-figure { overflow:hidden; margin:0; border:1px solid #35475A; border-radius:16px; background:#0C1725; box-shadow:0 25px 70px rgba(0,0,0,.28); }
+    .comparison-figure img { width:100%; aspect-ratio:1.5; object-fit:cover; }
+    .comparison-labels { display:grid; grid-template-columns:1fr 1fr; border-top:1px solid #35475A; }
+    .comparison-label { min-height:112px; padding:19px 23px; }
+    .comparison-label + .comparison-label { border-left:1px solid #35475A; background:linear-gradient(115deg,rgba(225,29,63,.12),transparent 75%); }
+    .comparison-label span { display:block; margin-bottom:3px; color:#AFBDCC; font-size:12px; font-weight:600; }
+    .comparison-label strong { display:block; color:#fff; font:700 clamp(31px,4.8vw,47px)/1 "Space Grotesk",sans-serif; letter-spacing:-.055em; }
+    .comparison-label strong em { color:var(--red-hot); font-style:normal; }
+    .comparison-note { max-width:800px; margin:13px auto 0; color:#8D9BAE; text-align:center; font-size:12px; line-height:1.55; }
+    .contrast-row { display:grid; grid-template-columns:1fr 1fr; gap:18px; margin-top:25px; }
+    .contrast-row p { padding:18px 20px; border-left:2px solid #415267; color:var(--muted); font-size:15px; }
+    .contrast-row p:last-child { border-color:var(--red); color:#DCE4ED; }
+    .map-gallery { width:min(1160px,calc(100% - 32px)); margin:36px auto 0; }
+    .map-gallery img { width:100%; height:auto; }
+    .map-notes { display:grid; grid-template-columns:repeat(3,1fr); gap:24px; margin:22px 0 0; }
+    .map-notes article { padding-top:15px; border-top:1px solid #34465A; }
+    .map-notes span { display:block; margin-bottom:5px; color:#FF7185; font-size:11px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; }
+    .map-notes p { color:#ADB9C8; font-size:14px; line-height:1.5; }
+    .applications { display:grid; grid-template-columns:1fr 1fr; gap:0 42px; margin-top:38px; }
+    .application { display:grid; grid-template-columns:49px 1fr; gap:13px; padding:21px 0; border-top:1px solid #2C3E52; }
+    .application-index { color:var(--red-hot); font:600 14px/1.45 "Space Grotesk",sans-serif; }
+    .application h3 { margin-bottom:5px; font-size:19px; }
+    .application p { color:#AEBBCB; font-size:14px; line-height:1.55; }
+    .opportunity { margin-top:26px; padding:21px 23px; border:1px solid rgba(225,29,63,.45); border-radius:11px; background:linear-gradient(100deg,rgba(225,29,63,.1),rgba(16,30,48,.5)); color:#D7E0EA; }
+    .opportunity strong { color:#fff; }
+    .process { display:grid; grid-template-columns:repeat(4,1fr); gap:0; margin-top:37px; border-top:1px solid #34465A; border-bottom:1px solid #34465A; }
+    .process article { min-height:190px; padding:22px 20px 21px 0; }
+    .process article + article { padding-left:20px; border-left:1px solid #34465A; }
+    .process .index { display:block; margin-bottom:22px; color:var(--red-hot); font:700 14px/1 "Space Grotesk",sans-serif; }
+    .process h3 { margin-bottom:8px; font-size:19px; }
+    .process p { color:#AEBBCB; font-size:14px; line-height:1.55; }
+    .course-layout { display:grid; grid-template-columns:1.05fr .95fr; gap:52px; align-items:start; margin-top:35px; }
+    .curriculum { margin:0; padding:0; list-style:none; counter-reset:lesson; }
+    .curriculum li { display:grid; grid-template-columns:38px 1fr; gap:13px; padding:13px 0; border-top:1px solid #2D3F53; color:#DDE5ED; font-size:14px; }
+    .curriculum li::before { counter-increment:lesson; content:counter(lesson,decimal-leading-zero); color:#FF7185; font:600 12px/1.9 "Space Grotesk",sans-serif; }
+    .course-includes { padding:26px; border:1px solid #2F4258; border-radius:14px; background:linear-gradient(150deg,#13243A,#0E1A2B); }
+    .course-includes h3 { margin-bottom:17px; }
+    .include-item { display:grid; grid-template-columns:52px 1fr; gap:12px; padding:14px 0; border-top:1px solid rgba(176,196,218,.14); }
+    .include-item strong { color:#fff; font:700 21px/1.1 "Space Grotesk",sans-serif; }
+    .include-item span { color:#BBC6D2; font-size:13px; line-height:1.45; }
+    .format-note { margin-top:17px; padding:13px 14px; border-left:2px solid var(--red); background:rgba(225,29,63,.08); color:#BBC6D2; font-size:12px; line-height:1.5; }
+    .offer { overflow:hidden; background:linear-gradient(110deg,#111F31,#0C1725 60%,#241321); }
+    .offer::after { position:absolute; top:-150px; right:-80px; width:450px; height:450px; border:1px solid rgba(225,29,63,.2); border-radius:50%; box-shadow:0 0 0 38px rgba(225,29,63,.025),0 0 0 76px rgba(225,29,63,.018); content:""; pointer-events:none; }
+    .offer-inner { position:relative; z-index:1; display:grid; grid-template-columns:1fr auto; align-items:center; gap:42px; }
+    .offer-copy h2 { margin-bottom:13px; }
+    .offer-copy p { max-width:660px; color:#BBC6D2; font-size:17px; }
+    .offer-box { width:min(330px,100%); padding:27px; border:1px solid rgba(225,29,63,.55); border-radius:14px; background:#0A1524; box-shadow:0 20px 60px rgba(0,0,0,.28); }
+    .offer-box .small-label { color:#FF8192; font-size:11px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; }
+    .offer-price { display:block; margin:7px 0 14px; color:#fff; font:700 54px/1 "Space Grotesk",sans-serif; letter-spacing:-.065em; }
+    .offer-box p { margin-bottom:19px; color:#AEBBCB; font-size:13px; }
+    .offer-footnote { margin-top:12px!important; margin-bottom:0!important; text-align:center; font-size:11px!important; }
+    .faq-list { margin-top:29px; }
+    .faq details { padding:20px 0; border-top:1px solid #314359; }
+    .faq details:last-child { border-bottom:1px solid #314359; }
+    .faq summary { position:relative; padding-right:28px; color:#F1F4F8; cursor:pointer; font:600 17px/1.4 "Space Grotesk",sans-serif; list-style:none; }
+    .faq summary::-webkit-details-marker { display:none; }
+    .faq summary::after { position:absolute; top:0; right:0; color:var(--red-hot); font-size:22px; font-weight:400; content:"+"; }
+    .faq details[open] summary::after { content:"−"; }
+    .faq details p { max-width:760px; margin-top:13px; color:#AEBBCB; font-size:15px; }
+    .closing { padding:84px 0 93px; text-align:center; background:radial-gradient(ellipse at 50% 100%,rgba(225,29,63,.13),transparent 50%); }
+    .closing h2 { max-width:790px; margin:0 auto 14px; }
+    .closing p { margin-bottom:25px; color:#B2BECC; font-size:16px; }
+    .footer { padding:24px 0 32px; border-top:1px solid rgba(169,188,210,.13); color:#8595A8; font-size:11px; }
+    .footer-inner { display:flex; justify-content:space-between; gap:15px; }
     .mobile-bar { display:none; }
-    @media(max-width:700px) {
-      body { font-size:16px; }
-      .shell,.reading,.hero .reading { width:calc(100% - 36px); }
-      .header-inner { min-height:68px; }
-      .header img { width:153px; }
-      .header-label { display:none; }
-      .header .button.small { min-height:39px; padding:8px 11px; font-size:12px; }
-      .hero { padding:59px 0 65px; }
-      h1 { font-size:clamp(36px,8.2vw,51px); }
-      h2 { font-size:clamp(30px,7.7vw,42px); }
-      .hero-lead { font-size:18px; }
-      .hero-actions { display:block; margin-top:26px; }
-      .hero-actions .button { width:100%; }
-      .hero-price { display:block; margin-top:14px; text-align:center; font-size:21px; }
-      .brand-line { margin-top:29px; }
+    @media(max-width:900px) {
+      .hero-grid { grid-template-columns:1fr; gap:23px; }
+      .hero-copy { max-width:730px; padding-bottom:0; }
+      .hero-art { max-width:760px; }
+      .hero { padding-top:48px; }
+      .hero-rule { margin-top:43px; }
+      .process { grid-template-columns:1fr 1fr; }
+      .process article:nth-child(3) { padding-left:0; border-left:0; border-top:1px solid #34465A; }
+      .process article:nth-child(4) { border-top:1px solid #34465A; }
+      .course-layout { gap:28px; }
+    }
+    @media(max-width:650px) {
+      body { font-size:15px; }
+      .wrap,.reading { width:calc(100% - 34px); }
+      .header-inner { min-height:67px; }
+      .logo { width:154px; }
+      .header-note { display:none; }
+      .header .button.small { min-height:39px; padding:8px 11px; font-size:11px; }
+      .hero { padding:43px 0 59px; }
+      h1 { font-size:clamp(39px,10.1vw,55px); }
+      h2 { font-size:clamp(32px,8.4vw,43px); }
+      .hero-lead { font-size:17px; }
+      .hero-actions { align-items:stretch; gap:14px; }
+      .hero-actions .button { flex:1; }
+      .price-note { min-width:78px; }
+      .hero-foot { gap:8px 13px; font-size:11px; }
+      .hero-rule { margin-top:37px; }
+      .hero-stats { gap:8px; }
+      .hero-stats div { display:block; }
+      .hero-stats strong { display:block; margin-bottom:5px; font-size:20px; }
+      .hero-stats span { font-size:10px; line-height:1.35; }
       .section { padding:66px 0; }
-      .pain-list li { font-size:17px; }
-      .steps li { grid-template-columns:44px 1fr; }
-      .steps strong { font-size:18px; }
-      .example { padding:22px; }
-      .skill-list { grid-template-columns:1fr; }
-      .skills { padding-top:50px; }
-      .offer-box { display:block; padding:23px; }
-      .offer-box .button { width:100%; margin-top:19px; }
-      .closing { padding:65px 0 110px; }
+      .section-copy { font-size:16px; }
+      .comparison-figure { border-radius:12px; }
+      .comparison-figure img { aspect-ratio:1.05; object-position:50% center; }
+      .comparison-label { min-height:98px; padding:14px 12px; }
+      .comparison-label strong { font-size:clamp(30px,9vw,40px); }
+      .comparison-label span { font-size:10px; }
+      .contrast-row { grid-template-columns:1fr; gap:0; }
+      .contrast-row p { padding:12px 15px; }
+      .map-gallery { width:calc(100% - 20px); margin-top:25px; }
+      .map-notes { grid-template-columns:1fr; gap:0; }
+      .map-notes article { padding:14px 10px; }
+      .applications { grid-template-columns:1fr; gap:0; margin-top:24px; }
+      .application { padding:17px 0; }
+      .process { grid-template-columns:1fr; }
+      .process article,.process article + article { min-height:auto; padding:18px 0; border-left:0; border-top:1px solid #34465A; }
+      .process article:first-child { border-top:0; }
+      .process .index { margin-bottom:10px; }
+      .course-layout { grid-template-columns:1fr; gap:29px; }
+      .course-includes { padding:21px; }
+      .offer-inner { grid-template-columns:1fr; gap:26px; }
+      .offer-box { width:100%; }
+      .offer-box .button { width:100%; }
+      .closing { padding:67px 0 111px; }
       .closing .button { width:100%; }
       .footer { padding-bottom:100px; }
-      .mobile-bar { position:fixed; z-index:20; right:0; bottom:0; left:0; display:flex; align-items:center; justify-content:space-between; gap:14px; padding:11px 18px max(11px,env(safe-area-inset-bottom)); border-top:1px solid #DDDDDD; background:var(--white); box-shadow:0 -9px 30px rgba(0,0,0,.08); transform:translateY(120%); transition:transform .22s ease; }
+      .footer-inner { display:block; }
+      .footer-inner span { display:block; margin-top:6px; }
+      .mobile-bar { position:fixed; z-index:20; right:0; bottom:0; left:0; display:flex; align-items:center; justify-content:space-between; gap:12px; padding:11px 17px max(11px,env(safe-area-inset-bottom)); border-top:1px solid #34465A; background:rgba(7,17,31,.97); box-shadow:0 -10px 28px rgba(0,0,0,.35); transform:translateY(120%); transition:transform .2s ease; }
       .mobile-bar.visible { transform:translateY(0); }
-      .mobile-bar strong { white-space:nowrap; font-size:19px; }
-      .mobile-bar .button { min-height:45px; padding:10px 14px; font-size:13px; box-shadow:none; }
+      .mobile-bar strong { color:#fff; white-space:nowrap; font:700 20px/1 "Space Grotesk",sans-serif; }
+      .mobile-bar .button { min-height:44px; padding:9px 13px; font-size:12px; box-shadow:none; }
     }
-    @media(max-width:370px) { .header img { width:135px; } .header .button.small { font-size:11px; } }
+    @media(max-width:370px) { .logo { width:136px; } .header .button.small { font-size:10px; } }
     @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } .button,.mobile-bar { transition:none; } }
   </style>
 </head>
 <body>
   <header class="header">
-    <div class="shell header-inner">
-      <a href="#inicio" aria-label="Método Mapa Viral, voltar ao início"><img src="logo/metodo-mapa-viral-horizontal.svg" alt="Método Mapa Viral" width="178" height="46"></a>
-      <div class="header-right"><span class="header-label">Curso de vídeos de mapas com IA</span><a class="button small" href="https://pay.kiwify.com.br/bAuPiQh">Acessar curso ↗</a></div>
+    <div class="wrap header-inner">
+      <a href="#inicio" aria-label="Método Mapa Viral, início"><img class="logo" src="logo/metodo-mapa-viral-horizontal-reverso.svg" alt="Método Mapa Viral" width="190" height="48"></a>
+      <span class="header-note">Mapas que viram histórias em vídeo</span>
+      <a class="button small" href="https://pay.kiwify.com.br/bAuPiQh">Acessar o curso <span aria-hidden="true">↗</span></a>
     </div>
   </header>
   <main id="inicio">
     <section class="hero">
-      <div class="reading">
-        <p class="kicker">Método Mapa Viral · Curso prático</p>
-        <h1>Crie vídeos de mapas com IA <mark>sem começar do zero</mark> em cada tema.</h1>
-        <p class="hero-lead">Saia de uma ideia solta para um vídeo com roteiro, cenas e edição. <strong>Aprenda a sequência de produção e use seis skills para orientar cada formato.</strong></p>
-        <div class="hero-actions"><a class="button hero-button" href="https://pay.kiwify.com.br/bAuPiQh">Quero acessar o método <span aria-hidden="true">↗</span></a><span class="hero-price">R$ 97</span></div>
-        <p class="hero-includes"><strong>Inclui:</strong> 1 introdução em vídeo · 9 aulas em texto · 6 skills</p>
-        <p class="hero-disclosure">Esta é a versão inicial do curso. As aulas práticas estão em texto; novos vídeos serão adicionados depois.</p>
-        <div class="brand-line"><span class="bar" aria-hidden="true"></span><span>Criado pelo <strong>VitaleGeo</strong>, projeto de conteúdo sobre mapas e território.</span></div>
+      <div class="wrap">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Método Mapa Viral · Curso prático</p>
+            <h1>Transforme mapas em vídeos que <span>fazem o olhar parar.</span></h1>
+            <p class="hero-lead">Aprenda um fluxo para sair de uma ideia e chegar a um vídeo cartográfico com roteiro, cenas, movimento e revisão — sem montar cada detalhe do zero na timeline.</p>
+            <div class="hero-actions">
+              <a class="button hero-button" href="https://pay.kiwify.com.br/bAuPiQh">Quero criar vídeos de mapas <span aria-hidden="true">↗</span></a>
+              <span class="price-note"><strong>R$ 97</strong>acesso ao curso</span>
+            </div>
+            <div class="hero-foot"><span>Para conteúdo e projetos comerciais</span><span>Comece pelo material disponível</span></div>
+          </div>
+          <figure class="hero-art">
+            <img src="assets/hero-atlas.webp" alt="Mapa em relevo escuro com uma rota vermelha atravessando o território">
+            <figcaption class="art-caption"><strong>Uma rota. Uma história. Um vídeo.</strong><span>Método Mapa Viral</span></figcaption>
+          </figure>
+        </div>
+        <div class="hero-rule"></div>
+        <div class="hero-stats" aria-label="O que você recebe">
+          <div><strong>01 vídeo</strong><span>de introdução</span></div>
+          <div><strong>09 aulas</strong><span>práticas em texto</span></div>
+          <div><strong>06 skills</strong><span>para diferentes mapas</span></div>
+        </div>
       </div>
     </section>
 
-    <section class="section pain" aria-labelledby="pain-title">
+    <section class="section alt" id="comparativo" aria-labelledby="comparison-title">
       <div class="reading">
-        <p class="kicker">Você reconhece isso?</p>
-        <h2 id="pain-title">Você tem o tema. O vídeo trava no meio do caminho.</h2>
-        <ul class="pain-list">
-          <li><span>01</span>O roteiro não diz o que cada cena precisa mostrar.</li>
-          <li><span>02</span>As imagens saem bonitas, mas não combinam entre si.</li>
-          <li><span>03</span>Nomes, fronteiras e dados precisam ser conferidos antes da publicação.</li>
-        </ul>
-        <p class="answer">O método coloca essas decisões em ordem, para você saber o que fazer em cada etapa.</p>
+        <div class="section-head">
+          <p class="eyebrow">Menos tempo preso à timeline</p>
+          <h2 id="comparison-title">Uma ideia de mapa. <span class="red">Dois ritmos de produção.</span></h2>
+          <p class="section-copy">Veja o contraste entre uma composição cheia de camadas no After Effects e um fluxo mais direto para chegar ao vídeo de mapa.</p>
+        </div>
+        <figure class="comparison-figure">
+          <img src="assets/comparativo-after-effects.webp" alt="Comparação ilustrada: uma timeline de edição com muitas camadas de mapa à esquerda e um vídeo cartográfico com rota concluída à direita">
+          <div class="comparison-labels">
+            <div class="comparison-label"><span>After Effects · exemplo do criador</span><strong>5 <em>horas</em></strong></div>
+            <div class="comparison-label"><span>Fluxo ensinado no método</span><strong>20 <em>min</em></strong></div>
+          </div>
+        </figure>
+        <p class="comparison-note">Comparação informada pelo criador para um exemplo de produção. O tempo pode variar conforme tema, ferramentas, duração e nível de refinamento do vídeo.</p>
+        <div class="contrast-row">
+          <p>Na timeline tradicional, cada movimento pode trazer novas camadas, máscaras, pontos-chave e ajustes manuais.</p>
+          <p>Com uma sequência de trabalho organizada, você sabe o que decidir em cada etapa e concentra energia na história que o mapa precisa contar.</p>
+        </div>
       </div>
     </section>
 
-    <section class="section how" aria-labelledby="how-title">
-      <div class="reading">
-        <p class="kicker">Como você vai produzir</p>
-        <h2 id="how-title">Do tema ao vídeo final, em quatro etapas.</h2>
-        <ol class="steps">
-          <li><b>01</b><div><strong>Escolha uma pergunta clara</strong><p>Defina o que o espectador precisa entender e reúna as fontes do tema.</p></div></li>
-          <li><b>02</b><div><strong>Use a skill certa para montar o roteiro</strong><p>Há instruções específicas para histórias, rankings, negócios, rotas, cidades e comparações territoriais.</p></div></li>
-          <li><b>03</b><div><strong>Gere e revise as cenas</strong><p>Organize os comandos visuais e confira lugares, nomes, proporções e continuidade.</p></div></li>
-          <li><b>04</b><div><strong>Monte o vídeo</strong><p>Junte cenas, narração, som e legendas. Assista ao arquivo final antes de publicar.</p></div></li>
-        </ol>
-        <div class="example"><p class="example-label">Exemplo de aplicação</p><strong>“Por que o Brasil faz fronteira com a França?”</strong><p>O tema vira uma pergunta central, uma sequência de mapas e um roteiro visual. A skill ajuda a organizar as cenas; você confere a geografia e monta o vídeo.</p></div>
+    <section class="section red-wash" id="mapas" aria-labelledby="maps-title">
+      <div class="reading section-head">
+        <p class="eyebrow">Do roteiro para a tela</p>
+        <h2 id="maps-title">Mapas com um caminho para seguir.</h2>
+        <p class="section-copy">As skills partem de formatos que já fazem parte do curso: rotas, histórias de empresas e trajetos que ganham sentido quando vistos no território.</p>
+      </div>
+      <figure class="map-gallery"><img src="assets/mapas-de-exemplo.svg" alt="Três exemplos vetoriais: rota de viagem pelo Japão, conexões de atendimento no Brasil e percurso narrativo pela Itália"></figure>
+      <div class="reading map-notes">
+        <article><span>Rotas e turismo</span><p>Uma rota aérea conectando Tóquio, Nagoya, Kyoto e Osaka, com paradas visíveis no mapa.</p></article>
+        <article><span>Negócios e empresas</span><p>Pontos de atendimento e conexões distribuídos pelo território brasileiro.</p></article>
+        <article><span>Histórias e curiosidades</span><p>Um percurso que conduz o olhar pelo território e organiza a narrativa por etapas.</p></article>
       </div>
     </section>
 
-    <section class="section contents" aria-labelledby="contents-title">
+    <section class="section" id="aplicacoes" aria-labelledby="applications-title">
       <div class="reading">
-        <p class="kicker">O que está incluído</p>
-        <h2 id="contents-title">O material para começar a produzir.</h2>
-        <ul class="deliverables">
-          <li><span class="qty">01</span><div><h3>Introdução em vídeo</h3><p>Uma visão geral do método e de como usar os materiais.</p></div></li>
-          <li><span class="qty">09</span><div><h3>Aulas práticas em texto</h3><p>Do planejamento à edição, com exercícios e uma etapa de revisão cartográfica.</p></div></li>
-          <li><span class="qty">06</span><div><h3>Skills para diferentes tipos de mapa</h3><p>Arquivos de instruções para usar com uma IA de texto e adaptar ao seu tema.</p></div></li>
-        </ul>
-        <div class="skills"><h3>As seis skills</h3><ul class="skill-list">
-          <li><strong>Histórias e curiosidades</strong><span>Para explicar lugares e acontecimentos.</span></li>
-          <li><strong>Rankings Top 5</strong><span>Para comparar países ou regiões com um critério.</span></li>
-          <li><strong>Negócios e empresas</strong><span>Para mostrar presença territorial e expansão.</span></li>
-          <li><strong>Rotas e turismo</strong><span>Para contar trajetos e situar destinos.</span></li>
-          <li><strong>Mapas urbanos</strong><span>Para apresentar bairros, acessos e pontos de interesse.</span></li>
-          <li><strong>Dimensões reais</strong><span>Para comparar territórios com atenção às proporções.</span></li>
-        </ul></div>
-        <div class="format"><strong>Sobre o formato atual</strong> A introdução está em vídeo. As nove aulas práticas estão em texto nesta primeira versão. Os vídeos complementares serão publicados conforme forem produzidos.</div>
+        <p class="eyebrow">Um recurso para conteúdo e trabalho</p>
+        <h2 id="applications-title">Mapas podem entrar em mais projetos do que você imagina.</h2>
+        <p class="section-copy">Use o método para criar conteúdo próprio ou incluir vídeos cartográficos nas entregas que você já oferece.</p>
+        <div class="applications">
+          <article class="application"><span class="application-index">01</span><div><h3>Agências de marketing</h3><p>Inclua mapas em campanhas, vídeos institucionais e conteúdos para clientes que precisam explicar presença ou expansão.</p></div></article>
+          <article class="application"><span class="application-index">02</span><div><h3>Agências de turismo</h3><p>Apresente roteiros, destinos, conexões aéreas e experiências de viagem de um jeito visual.</p></div></article>
+          <article class="application"><span class="application-index">03</span><div><h3>Empresários e marcas</h3><p>Mostre onde a empresa atende, como distribui, onde abriu unidades e para onde está crescendo.</p></div></article>
+          <article class="application"><span class="application-index">04</span><div><h3>Imobiliário e negócios locais</h3><p>Contextualize bairros, acessos, pontos de interesse e a localização de novos empreendimentos.</p></div></article>
+          <article class="application"><span class="application-index">05</span><div><h3>Criadores de conteúdo</h3><p>Transforme curiosidades geográficas, rankings e comparações em histórias visuais para redes sociais.</p></div></article>
+          <article class="application"><span class="application-index">06</span><div><h3>Freelancers e produtoras</h3><p>Monte uma nova opção de serviço para apresentar a clientes que precisam visualizar lugares, rotas ou cobertura.</p></div></article>
+        </div>
+        <p class="opportunity"><strong>Uma possibilidade de faturamento:</strong> oferecer vídeos de mapas como serviço, cobrar por projeto ou acrescentá-los a um pacote de conteúdo. O curso ensina o processo de criação; conquistar clientes e definir preços depende da sua oferta e da sua execução.</p>
+      </div>
+    </section>
+
+    <section class="section alt" aria-labelledby="process-title">
+      <div class="reading">
+        <p class="eyebrow">Um processo que se repete</p>
+        <h2 id="process-title">Do assunto ao vídeo, etapa por etapa.</h2>
+        <div class="process">
+          <article><span class="index">01</span><h3>Escolha o ponto central</h3><p>Defina a pergunta, o lugar e a ideia que o espectador precisa levar.</p></article>
+          <article><span class="index">02</span><h3>Monte o roteiro visual</h3><p>Selecione o formato e organize a sequência de cenas.</p></article>
+          <article><span class="index">03</span><h3>Crie e confira as cenas</h3><p>Prepare os mapas, destaque os elementos e revise os dados geográficos.</p></article>
+          <article><span class="index">04</span><h3>Edite e publique</h3><p>Una cenas, narração, som e legendas; assista ao arquivo final antes de publicar.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="curso" aria-labelledby="course-title">
+      <div class="reading">
+        <p class="eyebrow">O curso por dentro</p>
+        <h2 id="course-title">Você recebe o caminho e as ferramentas para começar.</h2>
+        <div class="course-layout">
+          <div>
+            <ol class="curriculum">
+              <li>Entenda o fluxo de produção</li>
+              <li>Monte sua caixa de ferramentas</li>
+              <li>Escolha a skill certa para cada mapa</li>
+              <li>Planeje vídeos para canais e negócios</li>
+              <li>Defina a direção visual</li>
+              <li>Gere e revise as cenas</li>
+              <li>Prepare a narração e o som</li>
+              <li>Monte e exporte o vídeo</li>
+              <li>Corrija erros antes de publicar</li>
+            </ol>
+          </div>
+          <aside class="course-includes">
+            <h3>O que está incluído</h3>
+            <div class="include-item"><strong>01</strong><span>Vídeo de introdução para conhecer o método e os materiais.</span></div>
+            <div class="include-item"><strong>09</strong><span>Aulas práticas em texto, da escolha do tema à revisão final.</span></div>
+            <div class="include-item"><strong>06</strong><span>Skills para mapas narrativos, rankings, negócios, turismo, cidades e comparações.</span></div>
+            <p class="format-note">Esta é a versão inicial do curso: uma introdução em vídeo e as aulas práticas em texto. Novos vídeos serão acrescentados conforme forem produzidos.</p>
+          </aside>
+        </div>
       </div>
     </section>
 
     <section class="section offer" aria-labelledby="offer-title">
-      <div class="reading">
-        <p class="kicker">Método Mapa Viral</p>
-        <h2 id="offer-title">Comece pelo seu próximo tema.</h2>
-        <p class="offer-lead">Siga as aulas, escolha uma skill e monte um vídeo curto de mapa com as fontes usadas. Você não precisa aprender todas as ferramentas de uma vez.</p>
-        <div class="offer-box"><div><strong class="offer-price">R$ 97</strong><p>1 introdução em vídeo + 9 aulas em texto + 6 skills</p></div><a class="button" href="https://pay.kiwify.com.br/bAuPiQh">Quero acessar o curso <span aria-hidden="true">↗</span></a></div>
-        <p class="checkout-note">Compra concluída na Kiwify. Confira o valor e as condições no checkout antes de pagar.</p>
+      <div class="wrap offer-inner">
+        <div class="offer-copy">
+          <p class="eyebrow">Método Mapa Viral</p>
+          <h2 id="offer-title">Comece a planejar seu próximo vídeo de mapa.</h2>
+          <p>Aprenda um fluxo organizado, escolha uma das seis skills e transforme um tema em uma sequência visual que você pode revisar, montar e adaptar ao seu projeto.</p>
+        </div>
+        <div class="offer-box">
+          <span class="small-label">Acesso ao curso</span>
+          <strong class="offer-price">R$ 97</strong>
+          <p>1 vídeo de introdução · 9 aulas em texto · 6 skills</p>
+          <a class="button full" href="https://pay.kiwify.com.br/bAuPiQh">Quero acessar o método <span aria-hidden="true">↗</span></a>
+          <p class="offer-footnote">Pagamento e acesso pela Kiwify. Confira as opções no checkout.</p>
+        </div>
       </div>
     </section>
 
     <section class="section faq" aria-labelledby="faq-title">
       <div class="reading">
-        <p class="kicker">Antes de decidir</p>
-        <h2 id="faq-title">Dúvidas comuns.</h2>
-        <details><summary>O curso inteiro já está em vídeo?</summary><p>A introdução está em vídeo. As nove aulas práticas estão em texto. Os vídeos adicionais serão publicados depois.</p></details>
-        <details><summary>O que é uma skill?</summary><p>É um arquivo de instruções que você usa com uma IA de texto. Ele ajuda a planejar roteiro e comandos de cena para um formato de vídeo de mapa.</p></details>
-        <details><summary>Preciso pagar outras ferramentas?</summary><p>O curso apresenta opções para roteiro, geração visual, voz e edição. Os planos e limites das ferramentas externas podem mudar; você escolhe quais usar.</p></details>
-        <details><summary>Preciso saber editar antes de começar?</summary><p>As aulas mostram a sequência de montagem e o que revisar no arquivo final. Você ainda precisará praticar na ferramenta de edição que escolher.</p></details>
-        <details><summary>A IA acerta os mapas sozinha?</summary><p>Não. O curso inclui a revisão de nomes, fronteiras, trajetos, bandeiras e dados antes da publicação.</p></details>
+        <p class="eyebrow">Antes de entrar</p>
+        <h2 id="faq-title">Perguntas que podem estar passando pela sua cabeça.</h2>
+        <div class="faq-list">
+          <details><summary>O curso já está inteiro em vídeo?</summary><p>Ainda não. Nesta primeira versão, você recebe um vídeo de introdução, nove aulas práticas em texto e seis skills. Vídeos complementares serão adicionados depois.</p></details>
+          <details><summary>Preciso saber usar After Effects?</summary><p>Não. O método foi organizado para ensinar outro fluxo de criação de mapas em vídeo. As aulas mostram as etapas de roteiro, cenas, montagem e revisão.</p></details>
+          <details><summary>O que são as seis skills?</summary><p>São arquivos de instruções organizados por formato: narrativas e curiosidades, rankings, negócios, rotas e turismo, mapas urbanos e comparações territoriais.</p></details>
+          <details><summary>Posso usar isso em projetos de clientes?</summary><p>Sim. Os formatos do curso podem ser adaptados para projetos de marketing, turismo, empresas, imobiliário e outras áreas que precisem explicar lugares, trajetos ou cobertura.</p></details>
+          <details><summary>Vou ganhar dinheiro depois do curso?</summary><p>O método pode ajudar você a criar uma nova oferta de serviço ou ampliar seu portfólio. Faturamento depende de fatores como qualidade da entrega, preço, prospecção e demanda dos clientes.</p></details>
+          <details><summary>Como acesso o material?</summary><p>Depois de concluir a compra pela Kiwify, siga as instruções enviadas para acessar a área do curso e os materiais.</p></details>
+        </div>
       </div>
     </section>
 
     <section class="closing">
-      <div class="reading"><h2>Seu próximo vídeo pode começar com um plano claro.</h2><p>A versão inicial do Método Mapa Viral está disponível por R$ 97.</p><a class="button" href="https://pay.kiwify.com.br/bAuPiQh">Quero acessar o método <span aria-hidden="true">↗</span></a></div>
+      <div class="reading">
+        <p class="eyebrow" style="justify-content:center">Seu próximo mapa pode virar vídeo</p>
+        <h2>Troque horas de tentativa por um plano claro para criar.</h2>
+        <p>Conheça o Método Mapa Viral por R$ 97.</p>
+        <a class="button" href="https://pay.kiwify.com.br/bAuPiQh">Acessar o curso na Kiwify <span aria-hidden="true">↗</span></a>
+      </div>
     </section>
   </main>
-  <footer class="footer"><div class="shell footer-inner"><span>© VitaleGeo · Método Mapa Viral</span><span>Vídeos de mapas com inteligência artificial</span></div></footer>
-  <div class="mobile-bar" aria-label="Acesso rápido ao curso"><strong>R$ 97</strong><a class="button" href="https://pay.kiwify.com.br/bAuPiQh">Acessar curso ↗</a></div>
+  <footer class="footer"><div class="wrap footer-inner"><span>© VitaleGeo · Método Mapa Viral</span><span>Mapas, histórias e vídeos cartográficos.</span></div></footer>
+  <div class="mobile-bar" aria-label="Acesso rápido ao curso"><strong>R$ 97</strong><a class="button" href="https://pay.kiwify.com.br/bAuPiQh">Acessar o curso <span aria-hidden="true">↗</span></a></div>
   <script>
-    const bar = document.querySelector('.mobile-bar');
+    const mobileBar = document.querySelector('.mobile-bar');
     const heroButton = document.querySelector('.hero-button');
-    if (bar && heroButton && 'IntersectionObserver' in window) {
-      new IntersectionObserver(([entry]) => bar.classList.toggle('visible', !entry.isIntersecting), { threshold: 0 }).observe(heroButton);
+    if (mobileBar && heroButton && 'IntersectionObserver' in window) {
+      new IntersectionObserver(([entry]) => mobileBar.classList.toggle('visible', !entry.isIntersecting), { threshold: 0 }).observe(heroButton);
     }
   </script>
 </body>
